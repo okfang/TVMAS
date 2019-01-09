@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="06d0963b-f2d9-4da1-8b9e-35bee9829b2f" name="kingdom" url="http://125.216.241.27">
+        <fileTransfer host="125.216.241.27" port="22" rootFolder="/data/kingdom/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="c4aa0d7c-8a59-489b-b19e-ddb7fcf07a1b" name="gpuserver" url="http://125.216.241.64">
+        <fileTransfer host="125.216.241.64" port="22" rootFolder="/home/dxfang" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
